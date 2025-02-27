@@ -17,7 +17,7 @@
     Frontend: Nuxt.js (Vue.js, TailwindCSS)
     Blockchain: Solana (Rust, Anchor framework)
     Smart Contract: Solana Program handling bets & payouts
-    Live Data: Pyth Network Oracles for real-time SOL/USD price
+    Live Data: Pyth Network Oracles for real-time SOL/USD price, currently using Binance
     Wallet Connection: Solana Wallet Adapter
 
 ## 📌 How It Works
@@ -31,8 +31,8 @@
 ## 📦 Installation
 
     Clone the repository:
-    git clone https://github.com/your-repo/solana-options-nuxt.git
-    cd solana-options-nuxt
+    git clone https://github.com/AzizFacilex/Solana-Options.git
+    cd solana-options
     
     Install dependencies:
     npm install
