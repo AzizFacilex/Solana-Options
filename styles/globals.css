@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 17, 24, 39;
+  --background-end-rgb: 17, 24, 39;
+}
+
+@layer base {
+  body {
+    @apply text-white bg-gray-900;
+  }
+}
+
+@layer components {
+  .wallet-adapter-button {
+    @apply bg-blue-600 hover:bg-blue-700 transition-colors !important;
+  }
+
+  .wallet-adapter-modal-wrapper {
+    @apply bg-gray-800 !important;
+  }
+
+  .wallet-adapter-modal-button-close {
+    @apply bg-gray-700 !important;
+  }
+
+  .wallet-adapter-modal-title {
+    @apply text-white !important;
+  }
+} 
